@@ -22,85 +22,78 @@ body {
      margin-top: 1em;
      
  }
- .menu {
-     display: flex;
-     justify-content: center;
-     margin-top: -35px;
-
- }
- .menu li {
-     list-style-type: none;
-     margin-left: 30px;
-
- }
-.menu a {
-    color: white;
-    text-decoration: none;
-}
-section {
-    display: flex;
-}
-.container {
+ .logForm {
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 70px;
-
-}
-.contactus {
-    align-self: center;
-    background-color: #0F375C;
-    color: white;
-    margin-right: -140px;
-    padding: 40px 20px;
-    z-index: 1;
-    height: 250px;
-}
-.contactus li {
-    list-style-type: none;
-}
-.contactus div h2 {
-
- margin: -30px 50px 20px;
- font-weight: 500;
-}
-.contactForm {
+    flex-direction: column;
     background-color: white;
-    padding: 80px 100px;
+    padding: 60px 40px;
+    border-radius: 20px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
-    
-}
-.contactForm #intouch {
+ }
+ .logForm #signIn {
     margin-top: -50px;
-    margin-left: 70px;
-    font-weight: normal;
-}
-.contactForm #free {
+    margin-left: 127px;
     margin-bottom: 10px;
-    margin-left: 70px;
-    color: rgba(0, 0, 0, 0.5);
     font-weight: normal;
+    font-style: normal;
+
 }
 .inputBox input {
-    padding: 10px;
+    padding: 5px 30px;
     background-color:  rgba(196, 196, 196, 0.1);
-    margin-bottom: 8px;
-    margin-left: 70px;
+    margin-bottom: 12px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 50px
 }
-.inputBox textarea {
-    padding: 10px;
-    background: rgba(196, 196, 196, 0.1);
-    width: 77%;
+.inputBox button {
+    background-color: #017AFF;
+    border-radius: 62px;
+    padding: 2px 30px;
+    margin-top: 20px;
+    color: white;
     margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
 }
-.inputBox input[type="submit"] {
-background-color: #017AFF;
-border-radius: 62px;
-padding: 5px 30px;
-margin-top: 20px;
-color: white;
-margin-left: 70px;
-font-family: 'Poppins', sans-serif;
+hr {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.or {
+    background: #fff;
+    width: 30px;
+    margin-top: -15px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 145px;
+    padding-left:5px;
+}
+#signinGmail {
+    background-color: #6A79FE;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#signinBtn {
+    padding: 2px 67px; 
+    cursor: pointer;
+}
+.formBox #account {
+    margin-left: 35px;
+}
+.formBox #account  a {
+    text-decoration: none;
+    color: #017AFF;
+}
+.formBox #account  a:hover {
+    
+    color: #4000f1;
+    background-color: rgba(0, 128, 128, 0.3);
+    
 }
 footer {
     display: flex;
@@ -109,7 +102,7 @@ footer {
     background-color: rgba(15,55,92,0.3);
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 82px;
     color: white;
     margin-left: -15px;
     
