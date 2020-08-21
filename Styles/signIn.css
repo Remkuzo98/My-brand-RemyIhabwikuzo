@@ -82,19 +82,16 @@ hr {
     padding: 2px 67px; 
     cursor: pointer;
 }
-.formBox #account {
-    margin-left: 35px;
-}
-.formBox #account  a {
+#register {
     text-decoration: none;
     color: #017AFF;
 }
-.formBox #account  a:hover {
+#register:hover {
     
-    color: #4000f1;
+    color:  #4000f1;
     background-color: rgba(0, 128, 128, 0.3);
-    
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -102,7 +99,7 @@ footer {
     background-color: rgba(15,55,92,0.3);
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 82px;
+    margin-top: 165px;
     color: white;
     margin-left: -15px;
     
