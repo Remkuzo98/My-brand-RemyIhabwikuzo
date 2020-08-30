@@ -14,24 +14,27 @@
         </div>
         <div class="logForm">
             <h2 id='signIn'>Sign In</h2>
-            <div class="formBox">
+            <div id="error"></div>
+            <form id="form" class="formBox">
                 <div class="inputBox">
-                    <input type="text" placeholder="Your full name" required>
+                    <input id="name" type="text" placeholder="Your full name" required>
+                    <span id="span"><i class="fas fa-exclamation-circle"></i></span>
                 </div>
                 <div class="inputBox">
-                    <input type="text" placeholder="Your password" required>
+                    <input id="password" type="password" placeholder="Your password" required>
+                    <span id="span"><i class="fas fa-exclamation-circle"></i></span>
                 </div>
                 <div class="inputBox">
-                    <button type="button" id="signinBtn">Sign In</button>
+                    <button type="submit" id="signinBtn">Sign In</button>
                 </div>
                 <hr>
                 <p class="or">OR</p>
                 <div class="inputBox">
-                    <button type="button" id="signinGmail">Sign In with Gmail</button>
+                    <button type="submit" id="signinGmail">Sign In with Gmail</button>
                 </div>
                 <p id="acoount"> If you don't you have an account,  <a id="register" href="signup.html">Register</a></p>
 
-            </div>
+            </form>
         </div>
         <footer>
             <div class="copyrights">
@@ -49,6 +52,7 @@
             </div>
     
          </footer>  
-    </div>    
+    </div>
+    <script src="../Scripts/signIn.js"></script>    
 </body>
 </html>

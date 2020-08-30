@@ -110,3 +110,72 @@ footer {
 span {
     margin-left: 0.5rem;
 }
+#error {
+    background-color: crimson;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: .5rem;
+    padding: 0rem .3rem;
+    position: relative;
+
+}
+#span {
+    display: none;
+    color: crimson;
+    margin-left: 0rem;
+}
+input:focus {
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    .logForm {
+        padding-top: 60px;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        margin-left: 5px;
+        margin-right: 20px;
+        margin-top: 40px ;
+        flex-wrap: wrap;
+    }
+    .inputBox input {
+    padding: 5px 10px;
+    margin-left: 1.2rem;
+    }
+    .inputBox button {
+        padding: 2px 30px;
+        margin-left: 1.2rem; 
+        
+    }
+    hr {
+        margin-left: .8rem;  
+        
+    }
+    .or {
+        
+        margin-top: -15px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: 6rem; 
+        
+    }
+    .logForm #signIn {
+        
+        margin-left: 5rem;
+     
+    }
+    #account {
+        font-size: 1em;
+    }
+footer {
+    width: 100vw;
+    margin-top: 38vh;
+       
+}
+.footerLogo, .social{
+    display: none;
+}
+}
